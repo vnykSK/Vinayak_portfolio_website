@@ -1,0 +1,366 @@
+< !DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinayak Kukanur — Systems Engineer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- MOSAIC BG -->
+      <div class="mosaic-bg"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+          <defs>
+            <pattern id="mosaic" x="0" y="0" width="320" height="320" patternUnits="userSpaceOnUse">
+              <!-- large square -->
+                <rect x="0" y="0" width="160" height="160" fill="#F7F7F5" stroke="#3A3A38" stroke-width="0.5"
+                  stroke-opacity="0.3" />
+                <!-- horizontal strips -->
+                  <rect x="160" y="0" width="160" height="60" fill="#F7F7F5" stroke="#3A3A38" stroke-width="0.5"
+                    stroke-opacity="0.3" />
+                  <rect x="160" y="60" width="160" height="40" fill="#F7F7F5" stroke="#3A3A38" stroke-width="0.5"
+                    stroke-opacity="0.3" />
+                  <rect x="160" y="100" width="80" height="60" fill="#F7F7F5" stroke="#3A3A38" stroke-width="0.5"
+                    stroke-opacity="0.3" />
+                  <rect x="240" y="100" width="80" height="60" fill="#F7F7F5" stroke="#3A3A38" stroke-width="0.5"
+                    stroke-opacity="0.3" />
+                  <!-- bottom row -->
+                    <rect x="0" y="160" width="80" height="80" fill="#F7F7F5" stroke="#3A3A38" stroke-width="0.5"
+                      stroke-opacity="0.3" />
+                    <rect x="80" y="160" width="80" height="40" fill="#F7F7F5" stroke="#3A3A38" stroke-width="0.5"
+                      stroke-opacity="0.3" />
+                    <rect x="80" y="200" width="40" height="40" fill="#F7F7F5" stroke="#3A3A38" stroke-width="0.5"
+                      stroke-opacity="0.3" />
+                    <rect x="120" y="200" width="40" height="40" fill="#F7F7F5" stroke="#3A3A38" stroke-width="0.5"
+                      stroke-opacity="0.3" />
+                    <rect x="160" y="160" width="160" height="80" fill="#F7F7F5" stroke="#3A3A38" stroke-width="0.5"
+                      stroke-opacity="0.3" />
+                    <!-- last row -->
+                      <rect x="0" y="240" width="160" height="80" fill="#F7F7F5" stroke="#3A3A38" stroke-width="0.5"
+                        stroke-opacity="0.3" />
+                      <rect x="160" y="240" width="80" height="80" fill="#F7F7F5" stroke="#3A3A38" stroke-width="0.5"
+                        stroke-opacity="0.3" />
+                      <rect x="240" y="240" width="80" height="40" fill="#F7F7F5" stroke="#3A3A38" stroke-width="0.5"
+                        stroke-opacity="0.3" />
+                      <rect x="240" y="280" width="80" height="40" fill="#F7F7F5" stroke="#3A3A38" stroke-width="0.5"
+                        stroke-opacity="0.3" />
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#mosaic)" />
+        </svg></div>
+      <!-- NAV -->
+        <nav>
+          <div class="nav-logo"><svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <rect x="2" y="2" width="5" height="5" fill="white" />
+              <rect x="9" y="2" width="5" height="5" fill="white" opacity="0.5" />
+              <rect x="2" y="9" width="5" height="5" fill="white" opacity="0.5" />
+              <rect x="9" y="9" width="5" height="5" fill="white" />
+            </svg></div>
+          <div class="nav-links"><a href="#about">01. About</a><a href="#projects">02. Projects</a><a href="#skills">03.
+              Skills</a><a href="#contact">04. Contact</a></div>
+          <div class="nav-actions"><button class="btn-ghost"
+              onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Hire Me</button><a
+              href="mailto:vinayakkukanur2@gmail.com"><button class="btn-solid">Get in Touch</button></a></div>
+        </nav>
+        <!-- HERO -->
+          <section id="hero">
+            <div class="hero-inner">
+              <div>
+                <div class="hero-tag">
+                  <div class="hero-tag-line"></div><span class="hero-tag-text">Systems Engineer · Bangalore,
+                    IN · Available for opportunities</span>
+                </div>
+                <h1 class="hero-title">Vinayak<br /><span>Kukanur</span></h1>
+                <p class="hero-sub">Infrastructure Automation &amp;
+                  Cloud Operations<br />Azure · M365 · Python · PowerShell</p>
+                <div class="hero-cta"><button class="btn-solid" style="padding:10px 20px;font-size:11px;"
+                    onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">View
+                    Projects</button>
+                  <div class="status-badge">
+                    <div class="status-dot"></div><span class="status-text">3.8 yrs exp · 99.9% uptime</span>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-graphic">
+                <div class="wireframe-box">
+                  <div class="wf-corner tr"></div>
+                  <div class="wf-corner bl"></div>
+                  <div class="wf-orbit-container">
+                    <div class="wf-orbit"></div>
+                    <div class="wf-center"><svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <rect x="2" y="2" width="14" height="14" stroke="white" stroke-width="1.5" />
+                        <line x1="9" y1="2" x2="9" y2="16" stroke="white" stroke-width="1" />
+                        <line x1="2" y1="9" x2="16" y2="9" stroke="white" stroke-width="1" />
+                      </svg></div>
+                    <div class="orbit-node" style="top:50%;left:50%;transform-origin:0 0;"></div>
+                    <div class="orbit-node" style="top:50%;left:50%;transform-origin:0 0;background:var(--gold)"></div>
+                    <div class="orbit-node" style="top:50%;left:50%;transform-origin:0 0;background:var(--mint)"></div>
+                  </div>
+                  <div class="wf-label">SYS_ARCH_v2.4</div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- ABOUT -->
+            <section id="about">
+              <div class="about-inner reveal">
+                <div class="section-label"><span class="section-index">01</span>About</div>
+                <div class="about-content">
+                  <h2 class="about-title">Bridging Ops<br />& Development</h2>
+                  <p class="about-body">System Engineer with 3.8years of experience specialising in Infrastructure
+                    Automation and Cloud Operations (Azure/M365). Expert in engineering custom Python and PowerShell
+                    scripts,
+                    resulting in a 30% reduction in manual workload. Proven track record of maintaining 99.9% server
+                    uptime and enforcing security compliance across enterprise environments.</p>
+                  <div class="about-meta">
+                    <div class="meta-item"><span class="meta-key">Current Role</span><span class="meta-val">Analyst @
+                        Accenture</span></div>
+                    <div class="meta-item"><span class="meta-key">Experience</span><span class="meta-val">3+Years</span>
+                    </div>
+                    <div class="meta-item"><span class="meta-key">Location</span><span class="meta-val">Bangalore,
+                        IN</span></div>
+                    <div class="meta-item"><span class="meta-key">Education</span><span class="meta-val">B.E · CGPA
+                        8.02</span></div>
+                    <div class="meta-item"><span class="meta-key">Uptime Record</span><span
+                        class="meta-val">99.9%</span></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- PROJECTS -->
+              <section id="projects">
+                <div class="projects-inner reveal">
+                  <div class="projects-header">
+                    <div class="section-label"><span class="section-index">02</span>Projects</div>
+                    <div>
+                      <h2 style="font-size:36px;font-weight:700;letter-spacing:-0.02em;line-height:1.1;">Selected Work
+                      </h2>
+                    </div>
+                  </div>
+                  <div class="bento-grid">
+                    <!-- P1 -->
+                      <div class="bento-cell">
+                        <div class="bento-accent"></div>
+                        <div style="padding-left:12px;">
+                          <div class="bento-label">Project_01 · Python · AI</div>
+                          <div class="bento-title">AI-Powered Resume Tailor</div>
+                          <div class="bento-desc">Automation tool that customises resumes by matching skills to JDs
+                            using the Google Gemini API. Flask web interface parses LaTeX templates and generates
+                            tailored PDFs with NLP keyword extraction.</div>
+                          <img class="project-img" src="resume_tailor_thumbnail.png" alt="AI-Powered Resume Tailor" />
+                          <div class="tag-row"><span class="tag">Python</span><span class="tag">Flask</span><span
+                              class="tag">Gemini API</span><span class="tag">LaTeX</span><span class="tag">NLP</span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- P2 -->
+                        <div class="bento-cell">
+                          <div class="bento-accent"></div>
+                          <div style="padding-left:12px;">
+                            <div class="bento-label">Project_02 · PowerShell · Azure</div>
+                            <div class="bento-title">Server Health Monitor</div>
+                            <div class="bento-desc">Comprehensive monitoring script tracking Disk,
+                              CPU,
+                              and Memory metrics across Windows Servers. Configured automated email alerts for threshold
+                              breaches. Reduced manual checking time by 30%.</div>
+                            <div class="code-mock"><span class="cm-coral">Monitor</span>-Server {
+                              <br />&nbsp;
+                              &nbsp;
+                              <span class="cm-green">CPU</span>: <span class="cm-gold">87%</span> ⚠ WARN<br /> &nbsp;
+                              &nbsp;
+                              <span class="cm-green">MEM</span>: <span class="cm-coral">42%</span> ✓ OK<br /> &nbsp;
+                              &nbsp;
+                              <span class="cm-green">DISK</span>: <span class="cm-coral">61%</span> ✓ OK<br />
+                              }
+
+                            </div>
+                            <div class="tag-row"><span class="tag">PowerShell</span><span class="tag">Azure
+                                Monitor</span><span class="tag">Task Scheduler</span></div>
+                          </div>
+                        </div>
+                        <!-- P3 -->
+                          <div class="bento-cell">
+                            <div class="bento-accent"></div>
+                            <div style="padding-left:12px;">
+                              <div class="bento-label">Achievement_01 · Accenture</div>
+                              <div class="bento-title">30% Manual Workload Reduction</div>
+                              <div class="bento-desc">Engineered custom PowerShell/Python automation for routine
+                                administrative tasks including log analysis,
+                                user provisioning,
+                                and health reporting across enterprise server fleets.</div>
+                              <div class="code-mock"><span class="cm-green"> // Impact Metrics</span><br />
+                                Manual_Tasks_Automated: <span class="cm-gold">47</span><br />Time_Saved_Weekly: <span
+                                  class="cm-coral">~12hrs</span><br />Error_Rate_Reduction: <span class="cm-green">↓
+                                  94%</span></div>
+                              <div class="tag-row"><span class="tag">Python</span><span
+                                  class="tag">PowerShell</span><span class="tag">ServiceNow</span></div>
+                            </div>
+                          </div>
+                          <!-- P4 -->
+                            <div class="bento-cell">
+                              <div class="bento-accent"></div>
+                              <div style="padding-left:12px;">
+                                <div class="bento-label">Achievement_02 · TCS</div>
+                                <div class="bento-title">Knowledge Base Architect</div>
+                                <div class="bento-desc">Maintained and updated 500+Knowledge Articles in ServiceNow,
+                                  reducing customer queries by 15%. Led bridge calls for P1/P2 high-priority incident
+                                  resolution within SLA.</div>
+                                <div class="code-mock"><span class="cm-green">KB_Articles</span>: <span
+                                    class="cm-gold">500+</span>maintained<br /><span
+                                    class="cm-green">Query_Reduction</span>: <span class="cm-coral">↓
+                                    15%</span><br /><span class="cm-green">SLA_Compliance</span>: <span
+                                    class="cm-gold">✓ P1/P2/P3</span></div>
+                                <div class="tag-row"><span class="tag">ServiceNow</span><span
+                                    class="tag">ITSM</span><span class="tag">M365</span><span class="tag">Active
+                                    Directory</span></div>
+                              </div>
+                            </div>
+                  </div>
+                </div>
+              </section>
+              <!-- SKILLS -->
+                <section id="skills">
+                  <div class="skills-inner reveal">
+                    <div class="section-label"><span class="section-index">03</span>Skills</div>
+                    <div>
+                      <h2
+                        style="font-size:36px;font-weight:700;letter-spacing:-0.02em;line-height:1.1;margin-bottom:32px;">
+                        Technical Stack</h2>
+                      <div class="skills-grid">
+                        <div class="skill-cell">
+                          <div class="skill-cat">Core Competencies</div>
+                          <div class="skill-list">
+                            <div class="skill-item">
+                              <div class="skill-dot"></div>System Administration
+                            </div>
+                            <div class="skill-item">
+                              <div class="skill-dot"></div>Server Lifecycle Mgmt
+                            </div>
+                            <div class="skill-item">
+                              <div class="skill-dot"></div>Cloud Ops (Azure/M365)
+                            </div>
+                            <div class="skill-item">
+                              <div class="skill-dot"></div>Identity Mgmt (Entra ID)
+                            </div>
+                            <div class="skill-item">
+                              <div class="skill-dot"></div>Patch Management
+                            </div>
+                            <div class="skill-item">
+                              <div class="skill-dot"></div>Root Cause Analysis
+                            </div>
+                          </div>
+                        </div>
+                        <div class="skill-cell">
+                          <div class="skill-cat">Scripting & Automation</div>
+                          <div class="skill-list">
+                            <div class="skill-item">
+                              <div class="skill-dot coral"></div>Python
+                            </div>
+                            <div class="skill-item">
+                              <div class="skill-dot coral"></div>PowerShell
+                            </div>
+                            <div class="skill-item">
+                              <div class="skill-dot coral"></div>SQL
+                            </div>
+                            <div class="skill-item">
+                              <div class="skill-dot coral"></div>HTML / CSS
+                            </div>
+                            <div class="skill-item">
+                              <div class="skill-dot coral"></div>Task Automation
+                            </div>
+                            <div class="skill-item">
+                              <div class="skill-dot coral"></div>Bash / Linux (Basic)
+                            </div>
+                          </div>
+                        </div>
+                        <div class="skill-cell">
+                          <div class="skill-cat">Tools & Platforms</div>
+                          <div class="skill-list">
+                            <div class="skill-item">
+                              <div class="skill-dot mint"></div>ServiceNow (ITSM)
+                            </div>
+                            <div class="skill-item">
+                              <div class="skill-dot mint"></div>Azure Monitor
+                            </div>
+                            <div class="skill-item">
+                              <div class="skill-dot mint"></div>M365 Admin Center
+                            </div>
+                            <div class="skill-item">
+                              <div class="skill-dot mint"></div>Git / GitHub / VS Code
+                            </div>
+                            <div class="skill-item">
+                              <div class="skill-dot mint"></div>Windows Server 2016–2022
+                            </div>
+                            <div class="skill-item">
+                              <div class="skill-dot mint"></div>SCCM / BitLocker
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- CONTACT -->
+                  <section id="contact">
+                    <div class="contact-inner reveal">
+                      <div class="section-label"><span class="section-index">04</span>Contact</div>
+                      <div>
+                        <h2
+                          style="font-size:36px;font-weight:700;letter-spacing:-0.02em;margin-bottom:32px;line-height:1.1;">
+                          Let's Connect</h2>
+                        <div class="form-box">
+                          <div class="corner-marker tl"></div>
+                          <div class="corner-marker tr"></div>
+                          <div class="corner-marker bl"></div>
+                          <div class="corner-marker br"></div>
+                          <div class="form-title">Send a Message</div>
+                          <div class="form-sub"></div>
+                          <!-- <div class="field-group"><label class="field-label">Name</label><input class="field-input"
+                              type="text" placeholder="Your name" /></div>
+                          <div class="field-group"><label class="field-label">Email</label><input class="field-input"
+                              type="email" placeholder="your@email.com" /></div>
+                          <div class="field-group"><label class="field-label">Message</label><textarea
+                              class="field-input" placeholder="Tell me about the opportunity..."></textarea></div>
+                          <button class="btn-solid" style="width:100%;padding:12px;font-size:11px;margin-top:8px;">Send
+                            Message</button>
+                        </div> -->
+                          <div class="contact-links" style="margin-top:32px;"><a class="contact-link"
+                              href="mailto:vinayakkukanur2@gmail.com">
+                              <div class="link-icon"><svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                  <rect x="1" y="2" width="10" height="8" stroke="#1A3C2B" stroke-width="1" />
+                                  <polyline points="1,2 6,7 11,2" stroke="#1A3C2B" stroke-width="1" />
+                                </svg></div>vinayakkukanur2@gmail.com
+                            </a><a class="contact-link" href="https://www.linkedin.com/in/vinayakskukanur"
+                              target="_blank">
+                              <div class="link-icon"><svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                  <rect x="1" y="4" width="2" height="7" fill="#1A3C2B" />
+                                  <circle cx="2" cy="2" r="1" fill="#1A3C2B" />
+                                  <path d="M5 4v7M5 6.5c0-1.5 5-2 5 1V11" stroke="#1A3C2B" stroke-width="1" />
+                                </svg></div>LinkedIn Profile
+                            </a><a class="contact-link" href="https://github.com/vnykSK" target="_blank">
+                              <div class="link-icon"><svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                  <circle cx="6" cy="5" r="3.5" stroke="#1A3C2B" stroke-width="1" />
+                                  <path d="M4 8.5c0 1.5-1 2-1 2M8 8.5c0 1.5 1 2 1 2" stroke="#1A3C2B"
+                                    stroke-width="1" />
+                                  <line x1="6" y1="8.5" x2="6" y2="11" stroke="#1A3C2B" stroke-width="1" />
+                                </svg></div>GitHub Profile
+                            </a><a class="contact-link" href="tel:+919886545617">
+                              <div class="link-icon"><svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                  <path d="M2 2h3l1 3-1.5 1c.8 1.6 2 2.8 3.5 3.5L9 8l3 1v3c-6 .5-11-4-10-10z"
+                                    stroke="#1A3C2B" stroke-width="1" />
+                                </svg></div>+91 98865 45617
+                            </a></div>
+                        </div>
+                      </div>
+                  </section>
+                  <!-- FOOTER -->
+                    <footer><span class="footer-name">Vinayak Kukanur · Systems Engineer</span><span
+                        class="footer-copy">© 2025 · Built with precision</span></footer>
+                    <script src="script.js" defer></script>
+  </body>
+
+  </html>
